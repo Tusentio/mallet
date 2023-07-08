@@ -33,8 +33,15 @@ html`
             return text;
         }}
 
+        ${() => {
+            html`<p>This will not be included.</p>`;
+
+            // Returns are prioritized.
+            return "<p>This will be included.</p>";
+        }}
+
         ${html`
-            <p>But this does NOT work and will cause infinite recursion!</p>
+            <p>This does NOT work and will cause infinite recursion!</p>
         `}
     </div>
 `;
