@@ -1,0 +1,15 @@
+{
+    "name": "@tusent.io/mallet",
+    "version": "1.2.1",
+    "author": {
+        "name": "Tusentio",
+        "email": "contact@tusent.io"
+    },
+    "type": "module",
+    "main": "mallet.js",
+    "types": "mallet.d.ts",
+    "files": [
+        "mallet.js",
+        "mallet.d.ts"
+    ]
+}
